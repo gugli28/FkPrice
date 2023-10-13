@@ -3,8 +3,8 @@
 
 # Get Historical and Future Price for the given Product Page
 ![Iphone](assets/extnOp.png)  
-- This is extension to fetch future price from the fk services.
-- For any legal issues the API and URI are removed.
+- This is extension to fetch future/historical price from the fk services.
+- Future price is indicated by Red Data Points.
 
 ### Files and their usage.
 
@@ -19,6 +19,8 @@
 - Config.js
     - has all the configs
     - has the chart.min.js from [here] (https://www.jsdelivr.com/package/npm/chart.js?path=dist)
+    - NOTE: For any legal issues the API and URI are removed.
+
 - model
     - Request.js
     - Response.js
