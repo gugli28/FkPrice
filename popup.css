@@ -1,0 +1,20 @@
+.container {
+  width: 800px;
+  color: #314d3e;
+}
+
+.chart {
+  display: block;
+  width: 100%;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.chartDiv {
+  margin: 5px 5px;
+  padding: 3px;
+}

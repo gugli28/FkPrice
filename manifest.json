@@ -1,0 +1,36 @@
+{
+  "name": "My FK V2",
+  "version": "0.0.1",
+  "description": "Past/Future Price",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["https://*.flipkart.com/*",
+  "add all the Endpoints of the api accesed"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.flipkart.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+
+      ],
+      "matches": ["https://*.flipkart.com/*"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/ext-icon.png",
+      "24": "assets/ext-icon.png",
+      "32": "assets/ext-icon.png"
+    },
+    "default_title": "My FK V2",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
